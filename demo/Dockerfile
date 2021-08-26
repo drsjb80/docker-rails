@@ -1,9 +1,4 @@
-# docker run -it -p 3000:3000 -v ${PWD}:/home rails-dev
-# cd home
-# rails new Demo --skip-webpack-install --skip-javascript
-# cd Demo
-# echo "gem 'io-console'" >> Gemfile
-# bundle install
+# docker run -it -p 3000:3000 drsjb80/rails-demo
 FROM alpine
 MAINTAINER Dr. Steve Beaty <beatys@msudenver.edu>
 EXPOSE 3000
