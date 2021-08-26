@@ -1,0 +1,2 @@
+docker build -t ghcr.io/drsjb80/rails-demo .
+docker push ghcr.io/drsjb80/rails-demo
