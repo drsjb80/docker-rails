@@ -1,5 +1,0 @@
-docker build -t drsjb80/rails-dev-with-node:1.0 .
-docker push drsjb80/rails-dev-with-node:1.0
-----
-docker build -t drsjb80/rails-dev-with-node:latest .
-docker push drsjb80/rails-dev-with-node:latest
