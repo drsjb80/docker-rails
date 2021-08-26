@@ -1,3 +1,6 @@
 docker build -t drsjb80/rails-demo:1.0 .
 docker build --no-cache -t drsjb80/rails-demo:1.0 .
 docker push drsjb80/rails-demo:1.0
+----
+docker build -t drsjb80/rails-demo:latest .
+docker push drsjb80/rails-demo:latest
