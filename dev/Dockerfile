@@ -1,4 +1,4 @@
-# docker run -it -p 3000:3000 -v ${PWD}:/home drsjb80/rails-dev-with-node
+# docker run -it -p 3000:3000 -v ${PWD}:/home drsjb80/rails-dev
 FROM alpine
 MAINTAINER Dr. Steve Beaty <beatys@msudenver.edu>
 EXPOSE 3000
