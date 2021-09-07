@@ -3,3 +3,10 @@ docker push drsjb80/rails-dev:1.1
 ----
 docker build -t drsjb80/rails-dev:latest .
 docker push drsjb80/rails-dev:latest
+----
+docker buildx create --use
+docker buildx ls
+docker buildx build --platform linux/amd64,linux/arm64 -t drsjb80/rails-dev:1.2 --push .
+docker buildx build --platform linux/amd64,linux/arm64 -t drsjb80/rails-dev:latest --push .
+docker buildx stop
+docker buildx rm
