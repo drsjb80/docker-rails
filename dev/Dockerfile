@@ -6,9 +6,7 @@ VOLUME ["/home"]
 RUN apk update
 RUN apk upgrade
 RUN apk add ruby ruby-dev ruby-etc
-RUN apk add build-base zlib-dev
+RUN apk add build-base zlib-dev git
 RUN apk add sqlite sqlite-dev
-RUN apk add nodejs npm
-RUN npm install --global yarn
 RUN apk add ruby-bigdecimal ruby-json tzdata
 RUN gem install rails
