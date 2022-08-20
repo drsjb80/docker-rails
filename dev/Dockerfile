@@ -5,8 +5,7 @@ EXPOSE 3000
 VOLUME ["/home"]
 RUN apk update
 RUN apk upgrade
-RUN apk add ruby ruby-dev ruby-etc
+RUN apk add --upgrade ruby ruby-dev
 RUN apk add build-base zlib-dev git
-RUN apk add sqlite sqlite-dev
-RUN apk add ruby-bigdecimal ruby-json tzdata
+RUN apk add sqlite sqlite-dev tzdata
 RUN gem install rails
