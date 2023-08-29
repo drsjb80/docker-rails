@@ -11,7 +11,6 @@ addresses via
 
 For example, in the container:
 
-    # cd home
     /home # rails new demo
           create
           create  README.md
@@ -23,7 +22,9 @@ For example, in the container:
     Pin all controllers
     Appending: pin_all_from "app/javascript/controllers", under: "controllers"
           append  config/importmap.rb
+
     /home # cd demo/
+
     /home/demo # rails server -b 0.0.0.0
     => Booting Puma
     => Rails 7.0.3.1 application starting in development
