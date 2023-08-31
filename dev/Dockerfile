@@ -8,5 +8,6 @@ RUN apk upgrade
 RUN apk add --upgrade ruby ruby-dev
 RUN apk add build-base zlib-dev git
 RUN apk add sqlite sqlite-dev tzdata
+RUN apk add yaml-dev
 RUN gem install rails
 WORKDIR /home
