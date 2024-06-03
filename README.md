@@ -1,6 +1,6 @@
 A simple Docker file for developing RoR applications. To run:
 
-    docker run --platform linux/x86_64 -it -p 3000:3000 -v ${PWD}:/home drsjb80/rails-dev
+    docker run -it -p 3000:3000 -v ${PWD}:/home drsjb80/rails-dev
 
 You'll have to run the Rails commands in the container and in the /home
 directory, but then you can point your editor/IDE at the created directory
