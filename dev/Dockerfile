@@ -1,6 +1,6 @@
 # docker run -it -p 3000:3000 -v ${PWD}:/home drsjb80/rails-dev
-FROM alpine:3.18
-MAINTAINER Dr. Steve Beaty <beatys@msudenver.edu>
+FROM alpine:3.22
+LABEL org.opencontainers.image.authors="beatys@msudenver.edu"
 EXPOSE 3000
 VOLUME ["/home"]
 RUN apk update
